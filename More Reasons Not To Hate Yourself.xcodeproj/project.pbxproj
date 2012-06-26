@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C6FC391592DBD000E605AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6FC381592DBD000E605AC /* UIKit.framework */; };
+		11C6FC3B1592DBD000E605AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6FC3A1592DBD000E605AC /* Foundation.framework */; };
+		11C6FC3D1592DBD000E605AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6FC3C1592DBD000E605AC /* CoreGraphics.framework */; };
+		11C6FC431592DBD000E605AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC411592DBD000E605AC /* InfoPlist.strings */; };
+		11C6FC451592DBD000E605AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C6FC441592DBD000E605AC /* main.m */; };
+		11C6FC491592DBD000E605AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C6FC481592DBD000E605AC /* AppDelegate.m */; };
+		11C6FC4C1592DBD000E605AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C6FC4B1592DBD000E605AC /* ViewController.m */; };
+		11C6FC4F1592DBD100E605AC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC4D1592DBD100E605AC /* ViewController.xib */; };
+		11C6FC561592DEB500E605AC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C6FC551592DEB500E605AC /* AVFoundation.framework */; };
+		11C6FC5C1592DF3B00E605AC /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC581592DF3B00E605AC /* 1.mp3 */; };
+		11C6FC5D1592DF3B00E605AC /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC591592DF3B00E605AC /* 2.mp3 */; };
+		11C6FC5E1592DF3B00E605AC /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC5A1592DF3B00E605AC /* 3.mp3 */; };
+		11C6FC5F1592DF3B00E605AC /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC5B1592DF3B00E605AC /* 4.mp3 */; };
+		11C6FC671592E6A100E605AC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C6FC661592E6A100E605AC /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11C6FC341592DBD000E605AC /* More Reasons Not To Hate Yourself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "More Reasons Not To Hate Yourself.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11C6FC381592DBD000E605AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11C6FC3A1592DBD000E605AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11C6FC3C1592DBD000E605AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11C6FC401592DBD000E605AC /* More Reasons Not To Hate Yourself-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "More Reasons Not To Hate Yourself-Info.plist"; sourceTree = "<group>"; };
+		11C6FC421592DBD000E605AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11C6FC441592DBD000E605AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11C6FC461592DBD000E605AC /* More Reasons Not To Hate Yourself-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "More Reasons Not To Hate Yourself-Prefix.pch"; sourceTree = "<group>"; };
+		11C6FC471592DBD000E605AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11C6FC481592DBD000E605AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11C6FC4A1592DBD000E605AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11C6FC4B1592DBD000E605AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11C6FC4E1592DBD100E605AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		11C6FC551592DEB500E605AC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		11C6FC581592DF3B00E605AC /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		11C6FC591592DF3B00E605AC /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		11C6FC5A1592DF3B00E605AC /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		11C6FC5B1592DF3B00E605AC /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		11C6FC661592E6A100E605AC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C6FC311592DBD000E605AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C6FC561592DEB500E605AC /* AVFoundation.framework in Frameworks */,
+				11C6FC391592DBD000E605AC /* UIKit.framework in Frameworks */,
+				11C6FC3B1592DBD000E605AC /* Foundation.framework in Frameworks */,
+				11C6FC3D1592DBD000E605AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11C6FC291592DBD000E605AC = {
+			isa = PBXGroup;
+			children = (
+				11C6FC551592DEB500E605AC /* AVFoundation.framework */,
+				11C6FC3E1592DBD000E605AC /* More Reasons Not To Hate Yourself */,
+				11C6FC371592DBD000E605AC /* Frameworks */,
+				11C6FC351592DBD000E605AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11C6FC351592DBD000E605AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11C6FC341592DBD000E605AC /* More Reasons Not To Hate Yourself.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11C6FC371592DBD000E605AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11C6FC381592DBD000E605AC /* UIKit.framework */,
+				11C6FC3A1592DBD000E605AC /* Foundation.framework */,
+				11C6FC3C1592DBD000E605AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11C6FC3E1592DBD000E605AC /* More Reasons Not To Hate Yourself */ = {
+			isa = PBXGroup;
+			children = (
+				11C6FC471592DBD000E605AC /* AppDelegate.h */,
+				11C6FC481592DBD000E605AC /* AppDelegate.m */,
+				11C6FC4A1592DBD000E605AC /* ViewController.h */,
+				11C6FC4B1592DBD000E605AC /* ViewController.m */,
+				11C6FC4D1592DBD100E605AC /* ViewController.xib */,
+				11C6FC3F1592DBD000E605AC /* Supporting Files */,
+			);
+			path = "More Reasons Not To Hate Yourself";
+			sourceTree = "<group>";
+		};
+		11C6FC3F1592DBD000E605AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11C6FC661592E6A100E605AC /* Icon.png */,
+				11C6FC571592DF3B00E605AC /* JWEP */,
+				11C6FC401592DBD000E605AC /* More Reasons Not To Hate Yourself-Info.plist */,
+				11C6FC411592DBD000E605AC /* InfoPlist.strings */,
+				11C6FC441592DBD000E605AC /* main.m */,
+				11C6FC461592DBD000E605AC /* More Reasons Not To Hate Yourself-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11C6FC571592DF3B00E605AC /* JWEP */ = {
+			isa = PBXGroup;
+			children = (
+				11C6FC581592DF3B00E605AC /* 1.mp3 */,
+				11C6FC591592DF3B00E605AC /* 2.mp3 */,
+				11C6FC5A1592DF3B00E605AC /* 3.mp3 */,
+				11C6FC5B1592DF3B00E605AC /* 4.mp3 */,
+			);
+			path = JWEP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11C6FC331592DBD000E605AC /* More Reasons Not To Hate Yourself */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11C6FC521592DBD100E605AC /* Build configuration list for PBXNativeTarget "More Reasons Not To Hate Yourself" */;
+			buildPhases = (
+				11C6FC301592DBD000E605AC /* Sources */,
+				11C6FC311592DBD000E605AC /* Frameworks */,
+				11C6FC321592DBD000E605AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "More Reasons Not To Hate Yourself";
+			productName = "More Reasons Not To Hate Yourself";
+			productReference = 11C6FC341592DBD000E605AC /* More Reasons Not To Hate Yourself.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11C6FC2B1592DBD000E605AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Tigerspike;
+			};
+			buildConfigurationList = 11C6FC2E1592DBD000E605AC /* Build configuration list for PBXProject "More Reasons Not To Hate Yourself" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11C6FC291592DBD000E605AC;
+			productRefGroup = 11C6FC351592DBD000E605AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11C6FC331592DBD000E605AC /* More Reasons Not To Hate Yourself */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11C6FC321592DBD000E605AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C6FC431592DBD000E605AC /* InfoPlist.strings in Resources */,
+				11C6FC4F1592DBD100E605AC /* ViewController.xib in Resources */,
+				11C6FC5C1592DF3B00E605AC /* 1.mp3 in Resources */,
+				11C6FC5D1592DF3B00E605AC /* 2.mp3 in Resources */,
+				11C6FC5E1592DF3B00E605AC /* 3.mp3 in Resources */,
+				11C6FC5F1592DF3B00E605AC /* 4.mp3 in Resources */,
+				11C6FC671592E6A100E605AC /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11C6FC301592DBD000E605AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C6FC451592DBD000E605AC /* main.m in Sources */,
+				11C6FC491592DBD000E605AC /* AppDelegate.m in Sources */,
+				11C6FC4C1592DBD000E605AC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11C6FC411592DBD000E605AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C6FC421592DBD000E605AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		11C6FC4D1592DBD100E605AC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11C6FC4E1592DBD100E605AC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11C6FC501592DBD100E605AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11C6FC511592DBD100E605AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tigerspike Pty Ltd";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "22B43CD5-7590-45BE-9753-B3E3F8E8B1BF";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11C6FC531592DBD100E605AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "More Reasons Not To Hate Yourself/More Reasons Not To Hate Yourself-Prefix.pch";
+				INFOPLIST_FILE = "More Reasons Not To Hate Yourself/More Reasons Not To Hate Yourself-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11C6FC541592DBD100E605AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "More Reasons Not To Hate Yourself/More Reasons Not To Hate Yourself-Prefix.pch";
+				INFOPLIST_FILE = "More Reasons Not To Hate Yourself/More Reasons Not To Hate Yourself-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11C6FC2E1592DBD000E605AC /* Build configuration list for PBXProject "More Reasons Not To Hate Yourself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C6FC501592DBD100E605AC /* Debug */,
+				11C6FC511592DBD100E605AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11C6FC521592DBD100E605AC /* Build configuration list for PBXNativeTarget "More Reasons Not To Hate Yourself" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11C6FC531592DBD100E605AC /* Debug */,
+				11C6FC541592DBD100E605AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11C6FC2B1592DBD000E605AC /* Project object */;
+}
